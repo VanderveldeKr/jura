@@ -1,0 +1,53 @@
+#jura_promo_4567 {
+	@font-face {
+		font-family: "MVideo_icon_font";
+		src: url("../fonts/MVideo_icon_font/Web\ Fonts/0e5a5781d3b675fac9ba4b21d145dc99.eot");
+		src: url("../fonts/MVideo_icon_font/Web\ Fonts/0e5a5781d3b675fac9ba4b21d145dc99.eot?#iefix")format("embedded-opentype"),
+		url("../fonts/MVideo_icon_font/Web\ Fonts/0e5a5781d3b675fac9ba4b21d145dc99.woff2")format("woff2"),
+		url("../fonts/MVideo_icon_font/Web\ Fonts/0e5a5781d3b675fac9ba4b21d145dc99.woff")format("woff"),
+		url("../fonts/MVideo_icon_font/Web\ Fonts/0e5a5781d3b675fac9ba4b21d145dc99.ttf")format("truetype"),
+		url("../fonts/MVideo_icon_font/Web\ Fonts/0e5a5781d3b675fac9ba4b21d145dc99.svg#MVideo_icon_font")format("svg");
+	}
+	@font-face {
+		font-family: 'Roboto';
+		src: url("../fonts/Roboto-Bold.ttf")format("truetype");
+		font-family: 700;
+	}
+	@font-face {
+		font-family: 'Roboto';
+		src: url("../fonts/Roboto-Light.ttf")format("truetype");
+		font-weight: 300;
+	}
+	@font-face {
+		font-family: 'Roboto';
+		src: url("../fonts/Roboto-Medium.ttf")format("truetype");
+		font-weight: 500;
+	}
+	@font-face {
+		font-family: 'Roboto';
+		src: url("../fonts/Roboto-Regular.ttf")format("truetype");
+		font-weight: 400;
+	}
+
+	font-family: 'Roboto';
+	background-color: #fff;
+	color: #000;
+	padding: 50px 0;
+	overflow-x: hidden;
+	
+	@import '../css/reset';
+	@import '../css/base';
+
+	@import '../css/blocks/home';
+	@import '../css/blocks/history';
+	@import '../css/blocks/peculiarities';
+	@import '../css/blocks/awards';
+	@import '../css/blocks/catalog';
+}
+
+
+
+
+
+
+

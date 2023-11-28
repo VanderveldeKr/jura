@@ -1,0 +1,47 @@
+.jura-container {
+    max-width: 1600px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 1599.98px) {
+        max-width: 1450px;
+    }
+
+    @media (max-width: 1279.98px) {
+        max-width: 1224px;
+    }
+
+    @media (max-width: 991.98px) {
+        max-width: 100%;
+    }
+}
+
+.jura-banner {
+    max-width: 100%;
+}
+.jura-wrapper {
+    padding: 50px 0;
+}
+.jura-title {
+    text-align: center;
+    h3 {
+        font-size: 48px;
+        font-weight: 500;
+        // color: rgba(0, 0, 0, 0.7);
+        color: #a75c1fc6;
+        text-transform: uppercase;
+    }
+}
+@media (max-width: 750px) {
+    .jura-wrapper {
+        padding: 25px 0;
+    }
+    .jura-title {
+        h3 {
+            font-size: 28px;
+        }
+    }
+}

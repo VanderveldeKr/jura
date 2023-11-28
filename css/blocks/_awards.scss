@@ -1,0 +1,36 @@
+//banner-awards
+.banner-awards {
+    max-width: 100%;
+    padding: 15px;	
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 20px;
+    background-color: #000000;
+    p {
+        font-weight: 700;
+        font-size: 18px;
+        color: #ffffff;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+//banner-awards
+
+@media (max-width: 750px) {
+// banner-awards start
+    .banner-awards {
+        margin-top: 25px;
+        padding: 10px;
+        p {
+            color: #fff;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+// banner-awards end
+}

@@ -1,0 +1,92 @@
+// jura-home start
+.jura-home {
+    display: flex;
+    align-items: center;
+    // background-color: #dbddde;
+    background-color: #000000;
+    // background: linear-gradient(-0.1turn, #dbddde, #899196);
+    
+    border-radius: 20px;
+    position: relative;
+
+    .banner-home__logo {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+    .jura-home-img {
+        max-width: 50%;
+        img {
+            border-radius: 20px;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .jura-home-text {
+        padding: 25px;
+        max-width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        // color: rgba(0, 0, 0, 0.7);
+        p {
+            font-size: 42px;
+            line-height: 105%;
+            font-weight: 500;
+        }
+    }
+}
+// jura-home end
+
+@media (max-width: 1279.98px) {
+    // jura-home start
+        .jura-home {
+            .banner-home__logo {
+                top: 20px;
+                right: 20px;
+                width: 20%;
+            }
+            .jura-home-img {
+                max-width: 60%;
+                img {
+                    max-width: 100%;
+                }
+            }
+            .jura-home-text {
+                padding: 0;
+                p {
+                    font-size: 36px;
+                }
+            }
+        }
+    // jura-home end
+}
+    
+    
+@media (max-width: 750px) {
+    // jura-home start
+        .jura-home {
+            .banner-home__logo {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                width: 20%;
+            }
+            .jura-home-img {
+                max-width: 60%;
+                img {
+                    max-width: 100%;
+                }
+            }
+            .jura-home-text {
+                padding: 0;
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    // jura-home end
+}
+    

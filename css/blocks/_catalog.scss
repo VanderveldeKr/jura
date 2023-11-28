@@ -1,0 +1,123 @@
+// jura-catalog start
+.jura-catalog {
+    display: grid;
+    grid-template-columns:repeat(7, 1fr);
+    .jura-catalog__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .catalog__card-img {
+        img {
+            max-width: 80%;
+        }
+    }
+    .catalog__card-title {
+        padding-top: 5px;
+        padding-right: 50px;
+
+        color: #333;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .catalog__card-reviews {
+        padding-top: 2px;
+        padding-bottom: 15px;
+
+        line-height: 140%;
+        font-family: 'Roboto';
+
+        display: flex;
+        align-items: center;
+        .card-reviews__star {
+            &::before {
+                font-family: "MVideo_icon_font";
+                content: "\e60c";
+            }
+        }
+        .card-reviews__star, .card-reviews__ball {
+            color: #E31235;
+            font-size: 16px;	
+            font-weight: 500;	
+        }
+        .card-reviews__ball {
+            margin-left: 4px;
+        }
+        .card-reviews__quantity {
+            margin-left: 8px;
+            color: #7e7e83;
+        }
+    }
+    .catalog__card-button {
+    
+        a {
+            padding: 7px 23px;
+            background: #e31235;
+            color: #fff;
+            font-family: "Roboto";
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 26px;
+            text-align: center;
+            border-radius: 5px;
+            transition: .3s;
+            &:hover {
+                background: #bd0f2c;
+                transition: .3s;
+            }
+        }
+    }
+}
+
+.jura-catalog__all-button {
+    margin: 70px auto;
+    text-align: center;
+    a {
+        padding: 5px 20px;
+        background: #e31235;
+        color: #fff;
+        font-family: "Roboto";
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        border-radius: 5px;
+        transition: .3s;
+        &:hover {
+            background: #bd0f2c;
+            transition: .3s;
+        }
+    }
+}
+// jura-catalog end
+
+@media (max-width: 1279.98px) {
+// jura-catalog start
+    .jura-catalog {
+        grid-template-columns:repeat(4, 1fr);
+        gap: 35px 10px;
+    }
+// jura-catalog end
+}
+
+@media (max-width: 750px) {
+// jura-catalog start
+    .jura-catalog {
+        grid-template-columns:repeat(2, 1fr);
+        gap: 35px 10px;
+
+        .catalog__card-button a {
+            padding: 7px 13px;
+            font-size: 18px;
+        }
+        .catalog__card-title {
+            padding-right: 0;
+            font-size: 16px;
+        }
+    }
+    .jura-catalog__all-button {
+        margin: 35px auto;
+    }
+// jura-catalog end
+}

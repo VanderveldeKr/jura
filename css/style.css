@@ -1,0 +1,500 @@
+#jura_promo_4567 {
+  font-family: "Roboto";
+  background-color: #fff;
+  color: #000;
+  padding: 50px 0;
+  overflow-x: hidden;
+  /* Reset and base styles start */
+  /* Links */
+  /* Common */
+  /* Form */
+  /* reset end */
+}
+@font-face {
+  font-family: "MVideo_icon_font";
+  src: url("../fonts/MVideo_icon_font/Web Fonts/0e5a5781d3b675fac9ba4b21d145dc99.eot");
+  src: url("../fonts/MVideo_icon_font/Web Fonts/0e5a5781d3b675fac9ba4b21d145dc99.eot?#iefix") format("embedded-opentype"), url("../fonts/MVideo_icon_font/Web Fonts/0e5a5781d3b675fac9ba4b21d145dc99.woff2") format("woff2"), url("../fonts/MVideo_icon_font/Web Fonts/0e5a5781d3b675fac9ba4b21d145dc99.woff") format("woff"), url("../fonts/MVideo_icon_font/Web Fonts/0e5a5781d3b675fac9ba4b21d145dc99.ttf") format("truetype"), url("../fonts/MVideo_icon_font/Web Fonts/0e5a5781d3b675fac9ba4b21d145dc99.svg#MVideo_icon_font") format("svg");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+  font-family: 700;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+#jura_promo_4567 * {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+#jura_promo_4567 *,
+#jura_promo_4567 *::before,
+#jura_promo_4567 *::after {
+  box-sizing: border-box;
+}
+#jura_promo_4567 :focus,
+#jura_promo_4567 :active {
+  /*outline: none;*/
+}
+#jura_promo_4567 a:focus,
+#jura_promo_4567 a:active {
+  /* outline: none;*/
+}
+#jura_promo_4567 a {
+  color: black;
+}
+#jura_promo_4567 a, #jura_promo_4567 a:link, #jura_promo_4567 a:visited {
+  /* color: inherit; */
+  text-decoration: none;
+  /* display: inline-block; */
+}
+#jura_promo_4567 a:hover {
+  /* color: inherit; */
+  text-decoration: none;
+}
+#jura_promo_4567 aside, #jura_promo_4567 nav, #jura_promo_4567 footer, #jura_promo_4567 header, #jura_promo_4567 section, #jura_promo_4567 main {
+  display: block;
+}
+#jura_promo_4567 h1, #jura_promo_4567 h2, #jura_promo_4567 h3, #jura_promo_4567 h4, #jura_promo_4567 h5, #jura_promo_4567 h6, #jura_promo_4567 p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+#jura_promo_4567 ul, #jura_promo_4567 ul li {
+  list-style: none;
+}
+#jura_promo_4567 img {
+  vertical-align: top;
+}
+#jura_promo_4567 img, #jura_promo_4567 svg {
+  max-width: 100%;
+  height: auto;
+}
+#jura_promo_4567 address {
+  font-style: normal;
+}
+#jura_promo_4567 input, #jura_promo_4567 textarea, #jura_promo_4567 button, #jura_promo_4567 select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+#jura_promo_4567 input::-ms-clear {
+  display: none;
+}
+#jura_promo_4567 button, #jura_promo_4567 input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+#jura_promo_4567 input:focus, #jura_promo_4567 input:active,
+#jura_promo_4567 button:focus, #jura_promo_4567 button:active {
+  outline: none;
+}
+#jura_promo_4567 button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+#jura_promo_4567 label {
+  cursor: pointer;
+}
+#jura_promo_4567 legend {
+  display: block;
+}
+#jura_promo_4567 .jura-container {
+  max-width: 1600px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1599.98px) {
+  #jura_promo_4567 .jura-container {
+    max-width: 1450px;
+  }
+}
+@media (max-width: 1279.98px) {
+  #jura_promo_4567 .jura-container {
+    max-width: 1224px;
+  }
+}
+@media (max-width: 991.98px) {
+  #jura_promo_4567 .jura-container {
+    max-width: 100%;
+  }
+}
+#jura_promo_4567 .jura-banner {
+  max-width: 100%;
+}
+#jura_promo_4567 .jura-wrapper {
+  padding: 50px 0;
+}
+#jura_promo_4567 .jura-title {
+  text-align: center;
+}
+#jura_promo_4567 .jura-title h3 {
+  font-size: 48px;
+  font-weight: 500;
+  color: rgba(167, 92, 31, 0.7764705882);
+  text-transform: uppercase;
+}
+@media (max-width: 750px) {
+  #jura_promo_4567 .jura-wrapper {
+    padding: 25px 0;
+  }
+  #jura_promo_4567 .jura-title h3 {
+    font-size: 28px;
+  }
+}
+#jura_promo_4567 .jura-home {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  border-radius: 20px;
+  position: relative;
+}
+#jura_promo_4567 .jura-home .banner-home__logo {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+#jura_promo_4567 .jura-home .jura-home-img {
+  max-width: 50%;
+}
+#jura_promo_4567 .jura-home .jura-home-img img {
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
+}
+#jura_promo_4567 .jura-home .jura-home-text {
+  padding: 25px;
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+#jura_promo_4567 .jura-home .jura-home-text p {
+  font-size: 42px;
+  line-height: 105%;
+  font-weight: 500;
+}
+@media (max-width: 1279.98px) {
+  #jura_promo_4567 .jura-home .banner-home__logo {
+    top: 20px;
+    right: 20px;
+    width: 20%;
+  }
+  #jura_promo_4567 .jura-home .jura-home-img {
+    max-width: 60%;
+  }
+  #jura_promo_4567 .jura-home .jura-home-img img {
+    max-width: 100%;
+  }
+  #jura_promo_4567 .jura-home .jura-home-text {
+    padding: 0;
+  }
+  #jura_promo_4567 .jura-home .jura-home-text p {
+    font-size: 36px;
+  }
+}
+@media (max-width: 750px) {
+  #jura_promo_4567 .jura-home .banner-home__logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20%;
+  }
+  #jura_promo_4567 .jura-home .jura-home-img {
+    max-width: 60%;
+  }
+  #jura_promo_4567 .jura-home .jura-home-img img {
+    max-width: 100%;
+  }
+  #jura_promo_4567 .jura-home .jura-home-text {
+    padding: 0;
+  }
+  #jura_promo_4567 .jura-home .jura-home-text p {
+    font-size: 16px;
+  }
+}
+#jura_promo_4567 .jura-history {
+  max-width: 100%;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+#jura_promo_4567 .jura-history .jura-history__card {
+  width: 100%;
+  row-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#jura_promo_4567 .jura-history .jura-history__card .jura-history__card-title p {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 700;
+}
+#jura_promo_4567 .jura-history .jura-history__card .jura-history__card-img {
+  height: 115px;
+}
+#jura_promo_4567 .jura-history .jura-history__card .jura-history__card-img img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#jura_promo_4567 .jura-history .jura-history__card .jura-history__card-text p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+@media (min-width: 751px) {
+  #jura_promo_4567 .jura-history__card {
+    max-width: calc(25% - 20px);
+  }
+}
+@media (max-width: 750px) {
+  #jura_promo_4567 .jura-history__card {
+    width: calc(100% - 20px);
+  }
+}
+@media (min-width: 1100px) {
+  #jura_promo_4567 .jura-history__card {
+    max-width: calc(14.2857142857% - 20px);
+  }
+}
+@media (max-width: 750px) {
+  #jura_promo_4567 .jura-history {
+    padding-top: 25px;
+  }
+}
+#jura_promo_4567 .jura-peculiarities {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-top: 50px;
+}
+#jura_promo_4567 .jura-peculiarities .peculiarities__card {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+#jura_promo_4567 .jura-peculiarities .peculiarities__card .peculiarities__card-content {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#jura_promo_4567 .jura-peculiarities .peculiarities__card .peculiarities__card-content .peculiarities__card-title h4 {
+  font-weight: 700;
+  font-size: 32px;
+  list-style: 1.5;
+}
+#jura_promo_4567 .jura-peculiarities .peculiarities__card .peculiarities__card-content .peculiarities__card-text p, #jura_promo_4567 .jura-peculiarities .peculiarities__card .peculiarities__card-content .peculiarities__card-text ul li {
+  font-weight: 400;
+  font-size: 19px;
+  list-style: 1.625;
+  color: rgba(0, 0, 0, 0.631372549);
+}
+#jura_promo_4567 .jura-peculiarities .peculiarities__card .peculiarities__card-img {
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100%;
+}
+#jura_promo_4567 .jura-peculiarities .peculiarities__card .peculiarities__card-img img {
+  margin: 0 auto;
+  max-width: 100%;
+}
+#jura_promo_4567 .jura-peculiarities .peculiarities__card-reverse .peculiarities__card-content {
+  order: 2;
+}
+@media (max-width: 750px) {
+  #jura_promo_4567 .jura-peculiarities {
+    gap: 50px;
+    padding-top: 25px;
+  }
+  #jura_promo_4567 .jura-peculiarities .peculiarities__card {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  #jura_promo_4567 .jura-peculiarities .peculiarities__card .peculiarities__card-content {
+    gap: 15px;
+  }
+  #jura_promo_4567 .jura-peculiarities .peculiarities__card .peculiarities__card-content .peculiarities__card-title h4 {
+    font-size: 22px;
+  }
+  #jura_promo_4567 .jura-peculiarities .peculiarities__card .peculiarities__card-content .peculiarities__card-text p, #jura_promo_4567 .jura-peculiarities .peculiarities__card .peculiarities__card-content .peculiarities__card-text ul li {
+    font-size: 16px;
+  }
+  #jura_promo_4567 .jura-peculiarities .peculiarities__card-reverse .peculiarities__card-content {
+    order: 0;
+  }
+  #jura_promo_4567 .jura-history__card {
+    width: 100%;
+  }
+  #jura_promo_4567 .banner-awards p {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.631372549);
+  }
+}
+#jura_promo_4567 .banner-awards {
+  max-width: 100%;
+  padding: 15px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #000000;
+}
+#jura_promo_4567 .banner-awards p {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+}
+#jura_promo_4567 .banner-awards img {
+  max-width: 100%;
+}
+@media (max-width: 750px) {
+  #jura_promo_4567 .banner-awards {
+    margin-top: 25px;
+    padding: 10px;
+  }
+  #jura_promo_4567 .banner-awards p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+#jura_promo_4567 .jura-catalog {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+#jura_promo_4567 .jura-catalog .jura-catalog__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+#jura_promo_4567 .jura-catalog .catalog__card-img img {
+  max-width: 80%;
+}
+#jura_promo_4567 .jura-catalog .catalog__card-title {
+  padding-top: 5px;
+  padding-right: 50px;
+  color: #333;
+  font-size: 18px;
+  line-height: 22px;
+}
+#jura_promo_4567 .jura-catalog .catalog__card-reviews {
+  padding-top: 2px;
+  padding-bottom: 15px;
+  line-height: 140%;
+  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+}
+#jura_promo_4567 .jura-catalog .catalog__card-reviews .card-reviews__star::before {
+  font-family: "MVideo_icon_font";
+  content: "\e60c";
+}
+#jura_promo_4567 .jura-catalog .catalog__card-reviews .card-reviews__star, #jura_promo_4567 .jura-catalog .catalog__card-reviews .card-reviews__ball {
+  color: #E31235;
+  font-size: 16px;
+  font-weight: 500;
+}
+#jura_promo_4567 .jura-catalog .catalog__card-reviews .card-reviews__ball {
+  margin-left: 4px;
+}
+#jura_promo_4567 .jura-catalog .catalog__card-reviews .card-reviews__quantity {
+  margin-left: 8px;
+  color: #7e7e83;
+}
+#jura_promo_4567 .jura-catalog .catalog__card-button a {
+  padding: 7px 23px;
+  background: #e31235;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+#jura_promo_4567 .jura-catalog .catalog__card-button a:hover {
+  background: #bd0f2c;
+  transition: 0.3s;
+}
+#jura_promo_4567 .jura-catalog__all-button {
+  margin: 70px auto;
+  text-align: center;
+}
+#jura_promo_4567 .jura-catalog__all-button a {
+  padding: 5px 20px;
+  background: #e31235;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+#jura_promo_4567 .jura-catalog__all-button a:hover {
+  background: #bd0f2c;
+  transition: 0.3s;
+}
+@media (max-width: 1279.98px) {
+  #jura_promo_4567 .jura-catalog {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px 10px;
+  }
+}
+@media (max-width: 750px) {
+  #jura_promo_4567 .jura-catalog {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px 10px;
+  }
+  #jura_promo_4567 .jura-catalog .catalog__card-button a {
+    padding: 7px 13px;
+    font-size: 18px;
+  }
+  #jura_promo_4567 .jura-catalog .catalog__card-title {
+    padding-right: 0;
+    font-size: 16px;
+  }
+  #jura_promo_4567 .jura-catalog__all-button {
+    margin: 35px auto;
+  }
+}/*# sourceMappingURL=style.css.map */
